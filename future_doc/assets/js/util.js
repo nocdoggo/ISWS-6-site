@@ -1,3 +1,7 @@
+/*
+	NocYama@MobileDog
+*/
+
 (function($) {
 
 	/**
