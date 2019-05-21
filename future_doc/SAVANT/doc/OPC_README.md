@@ -24,18 +24,20 @@ As for ==OPC 1== located at `Release Tower`:
 
 | SN   | Date       | Start Time | End Time |
 | ---- | ---------- | ---------- | -------- |
-| 1    | 09/23/2018 | 22:59:11   | 00:00:42 |
-| 2    |            |            |          |
-| 3    |            |            |          |
-| 4    |            |            |          |
+| 1    | 09/23/2018 |            |          |
+| 2    | 10/11/2018 | 21:11:09   | 23:59:59 |
+| 3    | 10/12/2018 | 00:00:00   | 07:05:03 |
+| 4    | 10/16/2018 | 01:58:19   | 06:31:18 |
+| 5    |            |            |          |
 
 As for ==OPC 2== located at `Lower Convergence Tower`:
 
-| SN   | Date | Start Time | End Time |
-| ---- | ---- | ---------- | -------- |
-|      |      |            |          |
-|      |      |            |          |
-|      |      |            |          |
+| SN   | Date       | Start Time | End Time |
+| ---- | ---------- | ---------- | -------- |
+| 1    |            | 22:59:11   | 00:00:42 |
+| 2    | 10/11/2018 | 23:44:58   | 23:59:59 |
+| 3    | 10/12/2018 | 00:00:00   | 07:05:03 |
+| 4    | 10/16/2018 | 01:58:19   | 06:31:18 |
 
 
 
@@ -76,4 +78,9 @@ The datasets have been converted to `.csv` and `.bin` file.
 
 #### 6.2 CSV File
 
-`.csv` files 
+`.csv` files include the experimental data, measuring methods, and plotting information. File stored in `comma-separated value` tabular form.
+
+
+
+## 7. General Dataset Description
+
