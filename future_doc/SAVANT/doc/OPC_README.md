@@ -127,3 +127,4 @@ For the measurement, the device separates the molecule counts based on the size 
 | Bin 16 Cut Point (um)  | 8.031 |
 | Bin 17 Cut Point (um)  | 10    |
 
+The data was collected with a time interval of `1 second` as mentioned previously.
