@@ -127,4 +127,45 @@ For the measurement, the device separates the molecule counts based on the size 
 | Bin 16 Cut Point (um)  | 8.031 |
 | Bin 17 Cut Point (um)  | 10    |
 
-The data was collected with a time interval of `1 second` as mentioned previously.
+The data was collected with a time interval of `1 second` as mentioned previously. And `Test Start Time` and `Test Start Date` are also included in the dataset. The data points were indexed based on second apart from the `Test Start Time`.
+
+
+
+## 8. File Names
+
+The data files are named under the regime of:
+
+```bash
+YYYY_MM_DD-HH_MM_SS-TEST_00<OPCID>.csv
+```
+
+For example, the data collected from `OPC#1` on October 23, starting at `22:33:05`, will have a file name of `2018_10_23-22_33_05-TEST_001.csv`.
+
+
+
+## 9. Data Restrictions
+
+Datasets collected from OPC devices are subject to restrictions which applies to `SAVANT` Project.
+
+
+
+## 10. Digital Object Identifier (DOI)
+
+NCAR/EOL are in charge of DOI management of the datasets.
+
+
+
+## 11. GCMD Keywords
+
+```java
+Category: EARTH SCIENCE SERVICES
+
+Topic: ENVIRONMENTAL ADVISORIES
+
+Term: WEATHER/CLIMATE ADVISORIES
+
+Variable_Level_1: DUST/ASH ADVISORIES
+
+UUID: 8f7c2388-24e4-4f90-a833-6dc166693879
+```
+
