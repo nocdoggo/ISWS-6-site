@@ -97,6 +97,10 @@ The datasets have been converted to `.csv` and `.bin` file.
 
 `.csv` files include the experimental data, measuring methods, and plotting information. File stored in `comma-separated value` tabular form.
 
+#### 6.3 .O30 File
+
+`.O30` file is native `OPS 3330` Storage file. Please install `AIM` Software for processing the files. Files are saved in ASCII encoding method. You can find the software under `Dustrack83330-8530ManualsIAIM-Software` folder. Or contact TSI for more information.
+
 
 
 ## 7. General Dataset Description
@@ -168,4 +172,3 @@ Variable_Level_1: DUST/ASH ADVISORIES
 
 UUID: 8f7c2388-24e4-4f90-a833-6dc166693879
 ```
-
