@@ -31,25 +31,32 @@ During the 1^st^ stage, we are trying to identify the possible drainage flow tim
 
 As for Dusttrack datasets, we label out the possible drainage time period by:
 
-1. Find out all time stamps where the particle concentration is `>= 0.1`
-2. The peak is not only 1 time for an extreme short period of time.
+1. Find out all time stamps where the particle concentration is ==>= 0.1 mg/m^3^== 
+2. Since the log interval is every `1 second`, therefore, we have to make sure that there are at least 2 observations within `i minute` time period which have concentration value ==>= 0.1 mg/m^3^==.
 
 ### 2.2 Wind Speed
 
 For the wind speed profiles, we use the wind speed at `10m` as the reference speed.
 
 1. Check the wind speed at `0.2m`, `1.5m`, `4.5m`, and `6m`.
-2. Make sure ==V<sub>0.2m</sub> >  V<sub>10m</sub>, V<sub>1.5m</sub> >  V<sub>10m</sub> , V<sub>4.5m</sub> >  V<sub>10m</sub>, V<sub>6.0m</sub> >  V<sub>10m</sub>==. 
-3. Also, the trend should be ==V<sub>0.2m</sub> >  V<sub>1.5m</sub> > V<sub>4.5m</sub> >  V<sub>6.0m</sub>==.
+
+2. Make sure ==V<sub>0.2m</sub> >  V<sub>10m</sub>== or ==V<sub>1.5m</sub> >  V<sub>10m</sub>== or ==V<sub>4.5m</sub> >  V<sub>10m</sub>== or ==V<sub>6.0m</sub> >  V<sub>10m</sub>==.
+
+3. ~~Also, the trend should be ==V<sub>0.2m</sub> >  V<sub>1.5m</sub> > V<sub>4.5m</sub> >  V<sub>6.0m</sub>==.~~
+
+   >  I am not certain exactly what the profile would ideally look like in the gulley and corn field.        — Dave
 
 ### 2.3 Wind Direction
 
 For the wind direction profiles, based on the gully, we follow the following criteria.
 
-1. Check the direction angle as: ==70 <= Θ<sub>1.5m</sub>, Θ<sub>4.5m</sub> <= 320==.
+1. Check the direction angle as: ==270 <= Θ<sub>1.5m</sub> <= 310== or ==270 <= Θ<sub>3.0m</sub> <= 310== or ==270 <= Θ<sub>4.5m</sub> <= 310==.
+
+   >  I would argue that we NOT require both heights to have winds between 70 and 320°.                   — Dave
+
 2. (Optional) Check if the direction angle at higher space, say Θ<sub>6.0m</sub> and Θ<sub>10m</sub>  are different than Θ<sub>1.5m</sub> and Θ<sub>4.5m</sub>. Θ<sub>0.2m</sub> is ignored due to the existence of a plethora of varies objects. 
 
-### 2.4 Temperature (Optional)
+### 2.4 Temperature
 
 For the temperature profile, we need to see if they follow the following criteria.
 
